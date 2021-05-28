@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/background.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,7 +143,7 @@ html {
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 90px 0px;
 }
 
 .menu .author-content h4 {
@@ -157,7 +157,7 @@ html {
 }
 
 .menu .social-network {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .menu .social-network ul li {
@@ -324,7 +324,7 @@ html {
 
 .white-button a {
     display: inline-block;
-    padding: 12px 20px;
+    padding: 12px 30px;
     background-color: #fff;
     color: #a43f49;
     font-size: 13px;
@@ -809,6 +809,9 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+    .social-icons{
+        flex-direction: column !important;
+    }
 }
 
 .center-elements{
@@ -817,4 +820,39 @@ section.contact-me {
 
 .element-spacing{
     padding-bottom: 15px;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a{
+    width: 145px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.footer-links-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+
+.footer-link, .footer-link:hover{
+    cursor: pointer;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    box-shadow: inset 0 -2px 0 0 rgb(225 225 225 / 10%);
+    -webkit-transition: box-shadow 200ms ease, color 200ms ease;
+    transition: box-shadow 200ms ease, color 200ms ease;
+    font-family: "Roboto", sans-serif;
+    color: silver;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
 }
