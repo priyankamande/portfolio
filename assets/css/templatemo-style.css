@@ -352,6 +352,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
+    border: 1px solid #a43f49;
 }
 
 button:hover {
@@ -808,4 +809,12 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+}
+
+.center-elements{
+    margin: 0 auto;
+}
+
+.element-spacing{
+    padding-bottom: 15px;
 }
